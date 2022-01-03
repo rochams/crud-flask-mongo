@@ -1,4 +1,4 @@
-## CRUD usando Python, Flask, Mongo e Bootstrap no Front
+## CRUD usando Python, Flask, Mongo e Bootstrap no Front.
 
 
 <div style="display: inline_block" ></br>
