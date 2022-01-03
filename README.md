@@ -10,7 +10,7 @@
 <br>
 
 #### O projeto, feito com o micro-framework Flask, conta com cadastro, via cli, de usuários utilizando bibliotecas como Werkzeug, Click, Blueprint, entre outras.
-#### Com os cadastros, é possível logar no sistema criado e gerir o database salvo na cloud da MongoDB, com inserts, edits e creates.
+#### Após efetuado o cadastro, é possível acessar o sistema criado via login e gerir o database salvo na cloud da MongoDB, com inserts, edits e creates.
 #### Como recurso adicional, é possível importar arquivos csv através do cli e inserir arquivos inteiros na collection.
 <br>
 
