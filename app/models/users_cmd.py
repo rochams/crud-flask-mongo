@@ -2,7 +2,7 @@ from flask import Blueprint
 import click
 import getpass                                          # biblioteca com funcionalidades de senha
 from werkzeug.security import generate_password_hash    # biblioteca para 
-from ...dbase.database import mongo
+from ..dbase.database import mongo
 
 user_commands = Blueprint('user', __name__)             # user está sendo especificado como uma espécie de gênero do comando, e getUser é um dos tantos comandos que posso setar.
 
@@ -33,7 +33,7 @@ def create_user(name):
     if userExist:
         print (f'Usuário "{name}" já existe.')
     else:
-        userCollection.insert(user)
+        userCollection.insert_one(user)
         print('Usuário cadastrado com sucesso!')
 
 

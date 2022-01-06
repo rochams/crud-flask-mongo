@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, session, request, redirect, url_for, flash
-from ...dbase.database import mongo
+from ..dbase.database import mongo
 import re 
 from bson.objectid import ObjectId
 

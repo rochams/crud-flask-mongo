@@ -1,5 +1,5 @@
 from flask import Blueprint
-from ...dbase.database import mongo
+from ..dbase.database import mongo
 import json, click, pandas
 
 produto = Blueprint('produto', __name__)

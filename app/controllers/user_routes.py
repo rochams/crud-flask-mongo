@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, session, redirect, url_for, request, flash
-from ...dbase.database import mongo
+from ..dbase.database import mongo
 from werkzeug.security import check_password_hash
 
 users = Blueprint('users', __name__)                    # url_prefix diz que todas as userss_ terão /index antes das suas respectivas endpoints. É OPCIONAL.
