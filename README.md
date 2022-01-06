@@ -14,4 +14,7 @@
 #### Como recurso adicional, é possível importar arquivos csv por json através do cli e inserí-los na collection.
 <br>
 
+![imagem-postman](https://user-images.githubusercontent.com/87584303/148434083-47c69f06-8952-4ea7-8c83-5529bd8dd7a1.png)
+
+
 ##### # FreeToImprove
